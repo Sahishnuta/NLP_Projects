@@ -1,0 +1,5 @@
+gtts
+flask
+flask-cors
+SpeechRecognition
+gunicorn==20.0.4
