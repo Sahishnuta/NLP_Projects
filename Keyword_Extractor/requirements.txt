@@ -1,0 +1,11 @@
+certifi
+click
+decorator
+decord
+jellyfish
+networkx
+numpy
+regex
+segtok
+tabulate
+yake
