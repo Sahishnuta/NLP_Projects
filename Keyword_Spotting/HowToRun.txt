@@ -1,0 +1,23 @@
+Download this project
+    https://drive.google.com/file/d/1JsRuKMJjdBv1eWFeciFgBheZKAEo-ubB/view?usp=sharing
+Unzip the project
+Open in pycharm
+Create a seperate environment
+    conda create -n keywordspotting python==3.6.9
+
+Select the same environment in pycharm
+
+Install the requirements files.
+    pip install -r requirements.txt
+
+Execute main.py
+Open a postman
+Url in POSTMAN
+    http://localhost:8000/predict
+Select the method as POST
+Select the Body section
+Inside the Body Section Select Raw and Select format as a JSON
+Data which we can send from the postman
+    {
+    "text" : "I am going to beach today!"
+}
